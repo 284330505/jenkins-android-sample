@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-            image 'jenkins-android:1.0.1' //①
+            image 'registry.cn-hangzhou.aliyuncs.com/my02/jenkins-android:1.0.1' //①
         }
     }
 
